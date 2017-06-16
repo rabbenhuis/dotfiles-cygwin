@@ -69,7 +69,7 @@ function connection_color() {
 		echo -en $COLOR_ALERT
 	else
 		# Connected on local machine
-		echo -en $AF_COLOR_GREEN
+		echo -en $AF_COLOR_BOLD_CYAN
 	fi
 }
 
@@ -83,7 +83,7 @@ function user_color() {
 		echo -en $AF_COLOR_BOLD_RED
 	else
 		# User is normal
-		echo -en $AF_COLOR_GREEN
+		echo -en $AF_COLOR_BOLD_BLUE
 	fi
 }
 
